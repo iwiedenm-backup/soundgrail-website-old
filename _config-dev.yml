@@ -11,7 +11,7 @@ locale:             en_US
 # url:                "https://albo.io"
 url:                "http://127.0.0.1:4000"
 baseurl: "/"
-address-custom:                "http://127.0.0.1:4000"
+address-custom:      "http://127.0.0.1:4000"
 
 trailing: "/"
 enforce_ssl: albo.io   # without any protocol

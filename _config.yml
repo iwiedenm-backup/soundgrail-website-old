@@ -8,17 +8,11 @@ logo:               'assets/img/somiibo-logo-app.png'
 background:         'assets/img/gradient-green-1.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://somiibo.com
+url:                https://soundgrail.com
 # url:                "http://127.0.0.1:4000"
 trailing: "/"
-enforce_ssl: somiibo.com   # without any protocol
-enforce_ssl: www.somiibo.com   # without any protocol
-
-download_win: "http://bit.ly/somiibo-win"
-download_mac: "http://bit.ly/somiibo-mac"
-download_win_x86: "http://bit.ly/somiibo-win-x86"
-download_win_unpacked: "http://bit.ly/somiibo-win-unpacked"
-download_win_unpacked_x86: "http://bit.ly/somiibo-win-unpacked-x86"
+enforce_ssl: soundgrail.com   # without any protocol
+enforce_ssl: www.soundgrail.com   # without any protocol
 
 price-premium-lifetime: "139.95"
 price-premium-monthly: "5.95"
