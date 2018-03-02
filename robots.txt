@@ -1,0 +1,42 @@
+User-agent: *
+Noindex: /
+Disallow: /
+#
+# Generic Pages
+#
+Noindex: /confirm/
+Noindex: /404.html
+Disallow: /intellectual-property/
+Noindex: /intellectual-property/
+Disallow: /packages/soundcloud-repost/free/submission/
+Noindex: /packages/soundcloud-repost/free/submission/
+#
+# Sneaky Pages
+#
+Disallow: /app/
+Noindex: /app/
+Disallow: /blog/unused/
+Noindex: /blog/unused/
+Disallow: /template/
+Noindex: /template/
+Disallow: /xyz/
+Noindex: /xyz/
+Disallow: /xadtest/
+Noindex: /xadtest/
+Disallow: /forms/
+Noindex: /forms/
+Disallow: /app-articles/
+Noindex: /app-articles/
+#
+# PROTECTION
+#
+Disallow: /search
+Disallow: /index.html?
+Disallow: /?
+Disallow: /startup?page=
+Disallow: *page=
+Disallow: *?page=
+#
+# EVENTUALLY REMOVE
+#
+Sitemap: https://somiibo.com/sitemap.xml
