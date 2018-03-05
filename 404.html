@@ -10,82 +10,56 @@ sitemap:
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  {% include /default/head.html %}
 
-{% include /meta/main.html %}
-{% include /meta/og.html %}
-{% include /meta/favicon.html %}
-{% include /meta/verification.html %}
-
-{% include /css/main.html %}
-{% include /scripts/internet-explorer.html %}
-
-{% include /scripts/ad-libraries.html %}
+  <!-- plugins -->
+  <!-- <link rel="stylesheet" href="/assets/libs/owl.carousel/dist/assets/owl.carousel.min.css" type="text/css" /> -->
 
 </head>
-<body>
-<div class="content-wrapper">
+<body class="shop home-page">
+
   {% include /elements/nav.html %}
-  <!--/.navbar -->
-  <div class="rev_slider_wrapper fullscreen-container">
-    <div id="slider" class="rev_slider red-1-grad" data-version="5.4.1">
-      <ul>
-        <li data-transition="fade" data-nav-color="light"><img src="/assets/images/dummy.png" data-bgcolor="" alt="" />
 
-              <div class="tp-caption w-regular color-white text-center"
-    	        data-x="center"
-        			data-y="middle"
-        			data-voffset="['-70','-70','-80','-70']"
-        			data-fontsize="['50','50','50','36']"
-        			data-lineheight="['60','60','60','46']"
-        			data-width="['1100','980','700','450']"
-        			data-textAlign="['center','center','center','center']"
-        			data-whitespace="['normal','normal','normal','normal']"
-        			data-frames='[{"from":"x:-50px;opacity:0;","speed":200,"to":"o:1;","delay":200,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-        			data-responsive="on"
-        			data-responsive_offset="on"
-        			style="z-index: 9;">404</div>
-              <div class="tp-caption w-light color-white text-center"
-              data-x="center"
-              data-y="middle"
-              data-voffset="['0','0','0','0']"
-              data-fontsize="['28','28','28','22']"
-              data-lineheight="['38','38','38','32']"
-              data-width="['750','750','650','450']"
-              data-textAlign="['center','center','center','center']"
-              data-whitespace="['normal','normal','normal','normal']"
-              data-frames='[{"from":"x:50px;opacity:0;","speed":400,"to":"o:1;","delay":400,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-              data-responsive="on"
-              data-responsive_offset="on"
-              style="z-index: 9;">This page is ded...</div>
-              <a class="tp-caption btn btn-border btn-rounded btn-l btn-white"
-              data-x="center"
-              data-y="middle"
-              data-voffset="['75','75','95','95']"
-              data-width="['auto','auto','auto','auto']"
-              data-textAlign="['center','center','center','center']"
-              data-frames='[{"delay":600,"speed":600,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-              data-responsive="on"
-              data-responsive_offset="on"
-              style="z-index: 9;" href="{{site.url}}/download{{site.trailing}}">Go back Home</a> </li>
+	<div class="wrapper reveal-side-navigation">
+		<div class="wrapper-inner">
 
-            </li>
-      </ul>
-      <div class="tp-bannertimer tp-bottom"></div>
+			<!-- Header -->
+      {% include /elements/nav-main.html %}
+
+			<!-- Header End -->
+
+			<!-- Content -->
+      <!-- Content -->
+    <div class="content clearfix">
+
+      <!-- 404 Section -->
+      <div class="section-block bkg-pink pt-150 pb-150">
+        <div class="row flex v-align-middle">
+          <div class="column width-8 left">
+            <h1 class="status-code-title color-white">Darn!</h1>
+            <h3 class="title-medium color-white"><span class="status-code weight-bold">404</span>: We can't seem to find the page you're looking for.</h3>
+            <ul class="lead list-unstyled mb-0 color-white">
+              <li><a href="{{site.url}}">SoundGrail Home</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 404 Section End -->
+      {% include /modules/latest-blog.html %}
+
     </div>
-    <!-- /.rev_slider -->
-  </div>
-  <!-- /.rev_slider_wrapper -->
+    <!-- Content End -->
 
 
+			<!-- Content End -->
 
-  {% include /elements/breadcrumbs.html %}
-</div>
+			{% include /elements/foot.html %}
 
-  {% include /elements/foot.html %}
+		</div>
+	</div>
 
-  {% include /elements/sitelinks.html %}
-  {% include /scripts/main.html %}
+  {% include /default/foot.html %}
 
-  {% include /scripts/firebase.html %}
+
 </body>
 </html>

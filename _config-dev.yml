@@ -25,6 +25,27 @@ includes:
 - assets
 
 
+collections:
+  products:
+    title: Products
+    output: true
+
+defaults:
+- scope:
+    path: ''
+    type: products
+  values:
+    permalink: "/shop/:title/"
+    layout: product
+    twitter:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+    layout: post
+    author:
+
 # Jekyll
 permalink:          /blog/:title/
 markdown:           kramdown

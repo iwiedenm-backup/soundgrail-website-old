@@ -39,4 +39,4 @@ Disallow: *?page=
 #
 # EVENTUALLY REMOVE
 #
-Sitemap: https://somiibo.com/sitemap.xml
+Sitemap: https://soundgrail.com/sitemap.xml

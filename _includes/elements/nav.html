@@ -1,10 +1,10 @@
 <!-- Side Navigation Menu -->
-<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="push-in">
+<aside class="side-navigation-wrapper enter-left" data-no-scrollbar data-animation="push-in">
   <div class="side-navigation-scroll-pane">
     <div class="side-navigation-inner">
       <div class="side-navigation-header">
         <div class="navigation-hide side-nav-hide">
-          <a href="#">
+          <a href="{{site.url}}">
             <span class="icon-cancel medium"></span>
           </a>
         </div>
@@ -20,7 +20,7 @@
               <li>
                 <a href="homepage-crowdfunding.html">Crowdfunding <span class="label rounded bkg-theme color-white pull-right">New</span></a>
               </li>
-              <li class="current">
+              <li>
                 <a href="homepage-hosting.html">Hosting <span class="label rounded bkg-theme color-white pull-right">New</span></a>
               </li>
               <li>
@@ -44,7 +44,7 @@
               <li>
                 <a href="homepage-product.html">Product</a>
               </li>
-              <li>
+              <li class="current">
                 <a href="homepage-service.html">Service</a>
               </li>
               <li>
@@ -478,6 +478,43 @@
                 </ul>
               </li>
             </ul>
+          </li>
+        </ul>
+      </nav>
+      <nav class="side-navigation nav-block">
+        <ul>
+          <li>
+            <a href="#" class="contains-sub-menu">Sign In</a>
+            <div class="sub-menu custom-content login-form-container">
+              <form class="login-form" action="#" method="post" novalidate>
+                <div class="row">
+                  <div class="column width-12">
+                    <div class="field-wrapper">
+                      <input type="text" name="email" class="form-name form-element rounded small" placeholder="E-mail" tabindex="1" required>
+                    </div>
+                  </div>
+                  <div class="column width-12">
+                    <div class="field-wrapper">
+                      <input type="password" name="password" class="form-email form-element rounded small" placeholder="Password" tabindex="2" required>
+                    </div>
+                  </div>
+                  <div class="column width-12">
+                    <div class="row flex">
+                      <div class="column width-6">
+                        <input type="submit" value="Sign In" class="form-submit button small rounded bkg-theme bkg-hover-theme color-white color-hover-white" tabindex="3">
+                      </div>
+                      <div class="column width-6 v-align-middle right">
+                        <div>
+                          <a class="recuperate-password" href="">Password?</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <input type="text" name="honeypot" class="form-honeypot form-element">
+              </form>
+              <div class="form-response"></div>
+            </div>
           </li>
         </ul>
       </nav>

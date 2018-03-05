@@ -1,87 +1,93 @@
-
-			<!-- Footer -->
-			<footer class="footer footer-light with-border">
+<footer class="footer footer-light border-top">
 				<div class="footer-top">
-					<div class="row flex one-column-on-tablet">
-						<div class="column width-3">
+					<div class="row flex">
+						<div class="column width-5">
 							<div class="widget">
-								<div class="footer-logo">
-									<a href="{{site.url}}"><img src="/assets/images/logo-dark.png" alt="Faulkner Logo" /></a>
+									<div class="signup-form-container">
+									<h4 class="weight-semi-bold mb-10">Stay in the know</h4>
+									<p>Unlock cool new features and get the hottest news in the music scene!</p>
+									<form class="signup-form merged-form-elements" action="{{site.url}}" method="post" novalidate="">
+										<div class="row">
+											<div class="column width-7">
+												<div class="field-wrapper">
+													<input type="email" name="email" class="form-email form-element rounded medium left" placeholder="Email address*" tabindex="2" required="">
+												</div>
+											</div>
+											<div class="column width-5">
+												<input type="submit" value="Subscribe" class="form-submit button rounded medium bkg-green bkg-hover-green color-white color-hover-white">
+											</div>
+										</div>
+										<input type="text" name="honeypot" class="form-honeypot form-element rounded medium">
+										<div class="form-response show">* No spamming here, promise!</div>
+									</form>
+									<!-- <form action="//somiibo.us16.list-manage.com/subscribe/post?u=06dd652b8c707fdf51ebcff20&amp;id=3e1d6746ec" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			              <div id="mc_embed_signup_scroll" class="form-group">
+			                <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="Email Address" required>
+			                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-rounded mr-0 pull-right">Join</button>
+			                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+			                  <input type="text" name="b_ddc180777a163e0f9f66ee014_056957de28" tabindex="-1" value="">
+			                </div>
+			                <div class="clearfix"></div>
+			              </div>
+			            </form> -->
 								</div>
-								<address>
-									Faulk &amp; Co, Inc.<br>
-									44 St Grove Ave #81<br>
-									Walnut, United States
-								</address>
 							</div>
 						</div>
-						<div class="column width-9">
+						<div class="column width-6 offset-1">
 							<div class="row flex two-columns-on-tablet">
-								<div class="column width-3">
+								<div class="column width-4 offset-4">
 									<div class="widget">
-										<h3 class="widget-title mb-30">Company</h3>
+										<h3 class="widget-title mb-30">Discover</h3>
 										<ul>
-											<li><a href="#">About us</a></li>
-											<li><a href="#">Work with us</a></li>
-											<li><a href="#">Recognition</a></li>
-											<li><a href="#">Our team</a></li>
-											<li><a href="#">Upcoming events</a></li>
-											<li><a href="#">Press</a></li>
-											<li><a href="#">Referral program</a></li>
-											<li><a href="#">Events</a></li>
-											<li><a href="#">Legal</a></li>
+											<li><a href="{{site.url}}/about/">About us</a></li>
+											<li><a href="{{site.url}}/app/">Our free app</a></li>
+											<li><a href="{{site.url}}/blog/">Blog</a></li>
+											<li><a href="{{site.url}}/support/">Support</a></li>
 										</ul>
 									</div>
 								</div>
-								<div class="column width-3">
+								<div class="column width-4">
 									<div class="widget">
-										<h3 class="widget-title mb-30">Product</h3>
+										<h3 class="widget-title mb-30">Resources</h3>
 										<ul>
-											<li><a href="#">Brance Hosting</a></li>
-											<li><a href="#">Cascade Hosting</a></li>
-											<li><a href="#">Tree Hosting</a></li>
-											<li><a href="#">Quick Storage</a></li>
-											<li><a href="#">Smart Storage</a></li>
-											<li><a href="#">Faulkner API</a></li>
-											<li><a href="#">Tools &amp; Integration</a></li>
-											<li><a href="#">Tutorials</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="column width-3">
-									<div class="widget">
-										<h3 class="widget-title mb-30">Support</h3>
-										<ul>
-											<li><a href="#">Contact Us</a></li>
-											<li><a href="#">Documentation</a></li>
-											<li><a href="#">Frequent questions</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="column width-3">
-									<div class="widget">
-										<h3 class="widget-title mb-30">Socialize</h3>
-										<ul class="social-list list-horizontal">
-											<li><a href="#"><span class="icon-twitter small"></span></a></li>
-											<li><a href="#"><span class="icon-facebook small"></span></a></li>
-											<li><a href="#"><span class="icon-dribbble small"></span></a></li>
-											<li><a href="#"><span class="icon-vimeo small"></span></a></li>
-											<li><a href="#"><span class="icon-youtube small"></span></a></li>
+											<li><a href="{{site.url}}/shop/">Shop</a></li>
 										</ul>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="footer-bottom bkg-grey-ultralight">
-					<div class="row">
+					<div class="row flex">
 						<div class="column width-12">
-							<div class="footer-bottom-inner">
-								<p class="copyright pull-left clear-float-on-mobile">&copy; ThemeMountain. All Rights Reserved.</p> <a href="#" class="scroll-to-top pull-right clear-on-mobile" data-no-hide>Back Top</a>
+							<hr class="mb-10 mb-mobile-30">
+						</div>
+						<div class="column width-8">
+							<p class="copyright pull-left clear-float-on-mobile">© SoundGrail. All Rights Reserved.</p> <a href="#" class="scroll-to-top pull-right clear-on-mobile" data-no-hide="">Back Top</a>
+						</div>
+						<div class="column width-4 v-align-middle">
+							<div class="widget">
+								<ul class="social-list list-horizontal pull-right clear-float-on-mobile" itemscope itemtype="http://schema.org/Organization">
+									<link itemprop="url" href="https://soundgrail.com">
+									<li><a itemprop="sameAs" href="https://twitter.com/soundgrailmusic"><span class="icon-twitter small"></span></a></li>
+									<li><a itemprop="sameAs" href="https://www.facebook.com/soundgrail"><span class="icon-facebook small"></span></a></li>
+									<li><a itemprop="sameAs" href="https://www.instagram.com/soundgrail/"><span class="icon-instagram small"></span></a></li>
+									<li><a itemprop="sameAs" href="https://www.youtube.com/channel/UC5CGKWyaa_SVWZbMUtiwuQA"><span class="icon-youtube small"></span></a></li>
+									<li><a itemprop="sameAs" href="https://plus.google.com/107475342405880796326"><span class="icon-google small"></span></a></li>
+									<li><a itemprop="sameAs" href="https://soundgrail.tumblr.com/"><span class="icon-tumblr small"></span></a></li>
+								</ul>
+
+								<!-- <ul class="social social-color social-s" itemscope itemtype="http://schema.org/Organization">
+			            <link itemprop="url" href="https://somiibo.com">
+
+			            <li><a itemprop="sameAs" href="https://twitter.com/somiibo" rel="nofollow"><span class="et-twitter"></span></a></li>
+			            <li><a itemprop="sameAs" href="https://www.facebook.com/somiibo/" rel="nofollow"><span class="et-facebook"></span></a></li>
+			            <li><a itemprop="sameAs" href="https://www.instagram.com/somiibo/" rel="nofollow"><span class="et-instagram"></span></a></li>
+			            <li><a itemprop="sameAs" href="https://www.pinterest.com/somiibo/" rel="nofollow"><span class="et-pinterest"></span></a></li>
+			            <li><a itemprop="sameAs" href="https://somiibo.tumblr.com/" rel="nofollow"><span class="et-tumblr"></span></a></li>
+			            <li><a itemprop="sameAs" href="https://plus.google.com/107387690608893214626" rel="nofollow"><span class="et-google"></span></a></li>
+			          </ul> -->
 							</div>
 						</div>
 					</div>
 				</div>
 			</footer>
-			<!-- Footer End -->

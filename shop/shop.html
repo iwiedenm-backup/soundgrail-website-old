@@ -1,0 +1,191 @@
+---
+layout: null
+title:
+description:
+breadcrumb: shop
+permalink: /shop/
+sitemap:
+    priority: 1.0
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include /default/head.html %}
+
+  <!-- plugins -->
+  <!-- <link rel="stylesheet" href="/assets/libs/owl.carousel/dist/assets/owl.carousel.min.css" type="text/css" /> -->
+
+</head>
+<body class="shop home-page">
+
+  {% include /elements/nav.html %}
+
+	<div class="wrapper reveal-side-navigation">
+		<div class="wrapper-inner">
+
+			<!-- Header -->
+      {% include /elements/nav-main.html %}
+
+			<!-- Header End -->
+
+			<!-- Content -->
+			<div class="content clearfix">
+
+				<!-- Intro Section -->
+        <div class="section-block intro-title-1 small">
+					<div class="row">
+						<div class="column width-12">
+							<div class="title-container">
+								<div class="title-container-inner">
+									<div class="row flex">
+										<div class="column width-6 v-align-middle">
+											<div>
+												<h1 class="mb-0">Shop</h1>
+												<p class="lead mb-0 mb-mobile-20">Browse unique sample packs, project files, &amp; soundbanks</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Intro Section End -->
+
+        <div class="section-block pt-0 pb-0 grid-filter-dropdown" data-target-grid="#product-grid">
+          <div class="freeze pt-10 bkg-white" data-extra-space-top="80" data-extra-space-bottom="0">
+            <div class="row">
+              <div class="column width-12">
+                <div class="filter-menu-inner">
+                  <div class="row flex">
+                    <div class="column width-8 v-align-middle">
+                      <div class="product-result-count">
+                        <p class="mb-0 mb-mobile-30">Showing 46 results</p>
+                      </div>
+                    </div>
+                    <div class="column width-4 right left-on-mobile">
+                      <span class="dropdown-label mb-0 mb-mobile-30">Filter: </span>
+                      <div class="dropdown medium inline-block" data-update-selection>
+                        <a href="#" class="button rounded center border-grey-light color-grey bkg-hover-theme color-hover-white"><span>All Products</span><span class="icon-down-open-mini pull-right"></span></a>
+                        <ul class="dropdown-list">
+                          <li><a class="active" href="#" data-filter="*">All Products</a></li>
+                          <li><a href="#" data-filter=".product-sample-packs">Sample Packs</a></li>
+                          <li><a href="#" data-filter=".product-project-files">Project Files</a></li>
+                          <li><a href="#" data-filter=".product-presets">Presets</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="product-grid" class="section-block grid-container products fade-in-progressively pt-30 pb-0" data-layout-mode="masonry" data-grid-ratio="1.5" data-animate-resize data-animate-resize-duration="0">
+					<div class="row">
+						<div class="column width-12">
+							<div class="row grid content-grid-4">
+
+
+                {% for product in site.products limit:20 %}
+                <div class="grid-item product grid-sizer {{ product.type }}">
+									<div class="thumbnail rounded product-thumbnail border-grey-light img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+										<span class="onsale">Sale</span>
+										<a class="overlay-link" href="{{site.url}}{{ product.url }}">
+											<img src="{{site.url}}/shop/products/{{ page.product-id }}/product.jpg" alt="{{ product.title }}"/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														View
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="product-actions center">
+											<a href="{{site.url}}{{ product.url }}" class="button add-to-cart-button rounded small">Add To Cart</a>
+										</div>
+									</div>
+									<div class="product-details center">
+										<h3 class="product-title text-truncate">
+											<a href="{{site.url}}{{ product.url }}">
+												{{ product.title }}
+											</a>
+										</h3>
+										<span class="product-price price"><del><span class="amount">{{ product.price.original }}</span></del><ins><span class="amount">{{ product.price.sale }}</span></ins></span>
+										<div class="product-actions-mobile">
+											<a href="#" class="button add-to-cart-button rounded small">Add To Cart</a>
+										</div>
+									</div>
+								</div>
+                {% endfor %}
+
+							</div>
+						</div>
+					</div>
+				</div>
+        <div class="row">
+          <div class="column width-12">
+            <br>
+            <br>
+            <br>
+          </div>
+				</div>
+
+        <!-- <div class="section-block bkg-gradient-norse-beauty">
+          <div class="row flex">
+            <div class="column width-7 left">
+              <h2 class="weight-semi-bold mb-20 color-white">Try our free app!</h2>
+              <p class="lead mb-0 mb-mobile-30 color-white opacity-07 ">SoundGrail is a free music theory app for pianists, guitarists and DJs. Learn chords, scales, key signatures, and more. Play guitar, piano and DJ like a pro!</p>
+            </div>
+            <div class="column width-5 v-align-middle right left-on-mobile">
+              <div>
+                <a href="https://app.soundgrail.com" class="button rounded medium border-white color-white bkg-hover-white color-hover-theme no-margins">
+                  <span class=""></span> SoundGrail App
+                </a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+
+        <div class="section-block bkg-grey-ultralight">
+					<div class="row flex">
+						<div class="column width-6">
+							<h2 class="weight-semi-bold mb-60">About SoundGrail</h2>
+              <!-- <p>We're turning underdogs into superstars</p> -->
+						</div>
+					</div>
+					<div class="row flex two-columns-on-tablet">
+						<div class="column width-6">
+							<h4 class="weight-semi-bold">SoundGrail's Mission</h4>
+							<p>SoundGrail was made from the heart. Moreover, SoundGrail was designed by musicians, for musicians. </p>
+              <p>As mentors and strategists, we saw such a significant number of artist visionaries attempting to utilize online social networking to develop their online presence. We saw a need to offer a service that would help aspiring artists promote their social media at a high level regardless of whether they have a full team of marketers or not.</p>
+						</div>
+						<div class="column width-6">
+
+							<h4 class="weight-semi-bold">Why use SoundGrail?</h4>
+              <p>+ Have access to our incredible, free app!</p>
+              <p>+ Get more SoundCloud plays and followers</p>
+              <p>+ Get quality samples and Ableton project files</p>
+							<p>+ Go from being an underdog to a superstar!</p>
+						</div>
+					</div>
+				</div>
+
+
+        {% include /modules/latest-blog.html %}
+
+			</div>
+			<!-- Content End -->
+
+			{% include /elements/foot.html %}
+
+		</div>
+	</div>
+
+  {% include /default/foot.html %}
+
+
+</body>
+</html>
