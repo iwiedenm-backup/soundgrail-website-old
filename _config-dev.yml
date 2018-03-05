@@ -14,12 +14,11 @@ baseurl: "/"
 address-custom:      "http://127.0.0.1:4000"
 
 trailing: "/"
-enforce_ssl: albo.io   # without any protocol
-enforce_ssl: www.albo.io   # without any protocol
+enforce_ssl: soundgrail.com   # without any protocol
+enforce_ssl: www.soundgrail.com   # without any protocol
 
 
-
-default-lastmod: "2017-01-30T00:20:35+00:00"
+default-lastmod: "2018-03-04T00:20:35+00:00"
 
 includes:
 - assets

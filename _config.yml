@@ -14,34 +14,24 @@ trailing: "/"
 enforce_ssl: soundgrail.com   # without any protocol
 enforce_ssl: www.soundgrail.com   # without any protocol
 
-price-premium-lifetime: "139.95"
-price-premium-monthly: "5.95"
-price-premium-yearly: "68.95"
-price-repost-plus: "4.95"
-price-repost-ultra: "9.95"
-price-repost-supreme: "16.95"
-price-plays-1000: "4.95"
-price-plays-3000: "12.95"
-price-plays-5000: "16.95"
-price-promotion-track: "18.95"
-
-default-lastmod: "2017-01-30T00:20:35+00:00"
+default-lastmod: "2018-03-04T00:20:35+00:00"
 
 includes:
 - assets
 
+
 collections:
-  authors:
-    title: Authors
+  products:
+    title: Products
     output: true
 
 defaults:
 - scope:
     path: ''
-    type: authors
+    type: products
   values:
-    permalink: "/team/:title/"
-    layout: author
+    permalink: "/shop/:title/"
+    layout: product
     twitter:
 - scope:
     path: ''
