@@ -14,6 +14,7 @@ baseurl: "/"
 address-custom:      "http://127.0.0.1:4000"
 
 trailing: "/"
+
 enforce_ssl: soundgrail.com   # without any protocol
 enforce_ssl: www.soundgrail.com   # without any protocol
 
