@@ -1,3 +1,41 @@
-<div class="">
-  LATEST BLOG STUFF HERE
+<div class="section-block pb-40 bkg-grey-ultralight">
+	<div class="row">
+		<div class="column width-8 offset-2 center">
+			<h3>SoundGrail Blog</h3>
+			<p class="lead mb-50">SoundGrail always stays on top of the current best practices of music production, marketing, and more. Head over to our blog and always stay in the loop!</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<div class="section-block grid-container fade-in-progressively small-margins pt-0 bkg-grey-ultralight" data-layout-mode="masonry" data-grid-ratio="1" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="0.8" data-as-bkg-image>
+  <div class="row">
+    <div class="column width-12">
+      <div class="row grid content-grid-3">
+
+        {% for post in site.posts limit:2 %}
+        <div class="grid-item grid-sizer">
+          <div class="thumbnail rounded img-scale-in" data-hover-speed="1000">
+            <img src="{{ site.url }}/blog/posts/{{ post.post_id }}/teaser.jpg" alt=""/>
+            <div class="caption-over-outer">
+              <div class="caption-over-inner v-align-bottom color-white">
+                <p class="lead"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<br><span class="icon-arrow-with-circle-right"></span></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+
+
+        <div class="grid-item">
+          {% include /adunits/inner-adsense-infeed.html %}
+        </div>
+
+      </div>
+    </div>
+  </div>
 </div>

@@ -2,6 +2,13 @@ User-agent: *
 Noindex: /
 Disallow: /
 #
+# Submission Pages
+#
+Noindex: /promotion/music-blog-feature/submission/
+Disallow: /promotion/music-blog-feature/submission/
+Noindex: /promotion/spotify-playlist/submission/
+Disallow: /promotion/spotify-playlist/submission/
+#
 # Generic Pages
 #
 Noindex: /confirm/

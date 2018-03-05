@@ -93,7 +93,7 @@ sitemap:
 									<div class="thumbnail rounded product-thumbnail border-grey-light img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
 										<span class="onsale">Sale</span>
 										<a class="overlay-link" href="{{site.url}}{{ product.url }}">
-											<img src="{{site.url}}/shop/products/{{ page.product-id }}/product.jpg" alt="{{ product.title }}"/>
+											<img src="{{site.url}}/shop/products/{{ product.product-id }}/product.jpg" alt="{{ product.name }}"/>
 											<span class="overlay-info">
 												<span>
 													<span>
@@ -109,7 +109,7 @@ sitemap:
 									<div class="product-details center">
 										<h3 class="product-title text-truncate">
 											<a href="{{site.url}}{{ product.url }}">
-												{{ product.title }}
+												{{ product.name }}
 											</a>
 										</h3>
 										<span class="product-price price"><del><span class="amount">{{ product.price.original }}</span></del><ins><span class="amount">{{ product.price.sale }}</span></ins></span>
