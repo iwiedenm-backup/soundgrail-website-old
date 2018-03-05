@@ -5,8 +5,11 @@
       <div class="column width-12 nav-bar-inner">
         <div class="logo">
           <div class="logo-inner">
-            <a href="{{site.url}}"><img src="/assets/images/logo-dark.png" alt="Faulkner Logo" /></a>
-            <a href="{{site.url}}"><img src="/assets/images/logo.png" alt="Faulkner Logo" /></a>
+            <!-- <a href="{{site.url}}"><img src="/assets/images/logo-dark.png" alt="SoundGrail Logo" /></a> -->
+            <a href="{{site.url}}"><img src="/assets/images/soundgrail-logo-dark.svg" alt="SoundGrail Logo" /></a>
+            <!-- <a href="{{site.url}}"><img src="/assets/images/logo.png" alt="Faulkner Logo" /></a> -->
+            <a href="{{site.url}}"><img src="/assets/images/soundgrail-logo.svg" alt="SoundGrail Logo" /></a>
+
           </div>
         </div>
         <nav class="navigation nav-block secondary-navigation nav-right">
@@ -27,7 +30,7 @@
         </nav>
         <nav class="navigation nav-block primary-navigation nav-right sub-menu-indicator">
           <ul>
-            <li class="current contains-sub-menu">
+            <li class="{% if page.url contains '/promotion/' %} current {% endif %} contains-sub-menu">
               <a href="{{site.url}}/promotion/">Promotion</a>
               <ul class="sub-menu">
                 <li>
@@ -37,14 +40,14 @@
                   <a href="{{site.url}}/promotion/spotify-playlist/">Spotify Playlist <span class="label rounded bkg-theme color-white pull-right">New</span></a>
                 </li>
                 <li>
-                  <a href="{{site.url}}/promotion/artist-blog-feature/">Blog Feature <span class="label rounded bkg-theme color-white pull-right">New</span></a>
+                  <a href="{{site.url}}/promotion/music-blog-feature/">Blog Feature <span class="label rounded bkg-theme color-white pull-right">New</span></a>
                 </li>
                 <!-- <li>
                   <a href="{{site.url}}/promotion/soundcloud-plays/">SoundCloud Plays <span class="label rounded bkg-theme color-white pull-right">New</span></a>
                 </li> -->
               </ul>
             </li>
-            <li class="contains-sub-menu">
+            <li class="{% if page.url contains '/blog/' %} current {% endif %} contains-sub-menu">
               <a href="{{site.url}}/blog/">Blog</a>
               <div class="sub-menu custom-content">
                 <!-- <div class="video-container">
@@ -55,10 +58,7 @@
                     <h4>Features</h4>
                   </li>
                   <li>
-                    <a href="{{site.url}}/blog/artists/">Artists</a>
-                  </li>
-                  <li>
-                    <a href="{{site.url}}/blog/tracks/">Tracks</a>
+                    <a href="https://music.soundgrail.com/blog/">Artists</a>
                   </li>
                 </ul>
                 <ul class="bkg-grey-ultralight">
@@ -112,7 +112,7 @@
   							</ul>
   						</div>
   					</li>
-            <li class="">
+            <li class="{% if page.url contains '/shop/' %} current {% endif %}">
 							<a href="{{site.url}}/shop/">Soundbanks</a>
 						</li>
             <!-- <li class="contains-sub-menu">
