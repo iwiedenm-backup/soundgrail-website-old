@@ -37,3 +37,14 @@ Perhaps the most widely known effect rack to date is the Easy Washout by Bass Kl
 
 
 If we missed any awesome effect racks that you’d like to see on this list, let us know in the comments below!
+
+
+<!--
+https://abletunes.com/blog/free-ableton-live-racks-mixing-mastering-tools/
+http://www.sidebrain.net/category/blog/free-racks/
+http://www.basskleph.com/blog/2016/2/8/easy-wash-out-free-ableton-plugin
+https://cymatics.fm/blog/free-ableton-effect-racks/
+https://www.reddit.com/r/AbletonRacks/
+https://www.loopmasters.com/genres/46-FX/products/5204-Ableton-Pro-Mix-Racks
+
+ -->
