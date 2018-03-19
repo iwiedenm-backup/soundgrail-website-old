@@ -19,7 +19,7 @@ enforce_ssl: soundgrail.com   # without any protocol
 enforce_ssl: www.soundgrail.com   # without any protocol
 
 
-default-lastmod: "2018-03-04T00:20:35+00:00"
+default-lastmod: "2018-03-15T00:20:35+00:00"
 
 includes:
 - assets
