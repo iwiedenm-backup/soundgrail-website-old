@@ -7,6 +7,7 @@ tags: [creating, winning, content]
 affiliate_search_term: "Marketing"
 author: "Ian"
 post_id: "post-1"
+category: "music-production"
 ---
 I'm sure you've experienced this before:
 

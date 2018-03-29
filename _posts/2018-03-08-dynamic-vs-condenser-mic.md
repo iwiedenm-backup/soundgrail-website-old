@@ -7,6 +7,7 @@ tags: [microphone, dynamic, condenser]
 affiliate_search_term: "Marketing"
 author: "Ian"
 post_id: "post-2"
+category: "music-hardware"
 ---
 Have you ever wondered what the differences are between a dynamic microphone and a condenser microphone?
 
@@ -45,6 +46,7 @@ Condenser microphones tend to have a larger body than dynamic mic. They have lar
 ### Condenser Microphone Traits
 * More depth and more quality
 * Need power, also known as phantom power or 48 volts
+* Discover [some other good mics](https://ehomerecordingstudio.com/best-condenser-mics/)
 
 ### Applications
 * Less aggressive applications

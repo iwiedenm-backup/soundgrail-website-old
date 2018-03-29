@@ -2,11 +2,12 @@
 layout: post
 title:  "Here Are Some of the Best Places to Submit Your Music"
 date:   2018-03-11
-excerpt: " "
+excerpt: "We're going to show you exactly which places you can submit your music for a good shot at getting your records in front of a lot of people."
 tags: [microphone, dynamic, condenser]
 affiliate_search_term: "Marketing"
 author: "Ian"
 post_id: "post-5"
+category: "music-marketing"
 ---
 Many artists will relate to what I am about to say:
 

@@ -1,8 +1,9 @@
 ---
 layout: null
-title: Blog - SoundGrail
-description: Stay up to date with the latest SoundGrail tips and tricks and get informed on the hottest music and production tips around.
-breadcrumb: Blog
+title: Blog - Music Hardware - SoundGrail
+description: Stay up to date with the latest SoundGrail tips and tricks in music hardware!
+breadcrumb: Music Hardware
+permalink: /blog/music-hardware/
 sitemap:
     priority: 1.0
 ---
@@ -39,8 +40,8 @@ sitemap:
 									<div class="row flex">
                     <div class="column width-6 v-align-middle">
 											<div>
-												<h1 class="mb-0">SoundGrail Blog</h1>
-												<p class="lead mb-0 mb-mobile-20">Production tips, free presets and samples lists, marketing tips and free VSTs and plugins!</p>
+												<h1 class="mb-0">Music Hardware</h1>
+												<p class="lead mb-0 mb-mobile-20">Get new tips on the best music hardware to take advantage of to boost your production!</p>
 											</div>
 										</div>
 										<div class="column width-6 v-align-middle">
@@ -69,10 +70,10 @@ sitemap:
 						<!-- Content Inner -->
 						<div class="column width-8 content-inner blog-regular">
 
-              {% for post in paginator.posts %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
-                {% assign author = site.authors | where: 'title', post.author | first %}
 
+
+              {% for post in site.posts %}
+              {% if post.category contains "music-hardware" %}
 
                 <article class="post">
                   <div class="post-content with-background">
@@ -80,66 +81,14 @@ sitemap:
                     <div class="post-info center">
                       <span class="post-date">{{ post.date | date_to_string }}</span>, in <span class="post-category"><a href="{{site.url}}{{ post.url }}">{{post.category}}</a></span>, <span class="post-tags"><span><a href="#" class="post-tag label small rounded border-green color-green bkg-hover-green bkg-hover-white">Updates</a></span></span>
                     </div>
-                    <div class="post-media">
-                      <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
-                        <a class="overlay-link" href="{{site.url}}{{ post.url }}">
-                          <img src="{{site.url}}/blog/posts/{{ post.post_id }}/teaser.jpg" alt="{{ post.title }}"/>
-                          <span class="overlay-info">
-                            <span>
-                              <span>
-                                Read Full Article
-                              </span>
-                            </span>
-                          </span>
-                        </a>
-                      </div>
-                    </div>
                     <br>
                     <p>{{ post.excerpt }}</p>
                     <a href="{{site.url}}{{ post.url }}" class="read-more">Read More →</a>
-                    <!-- <div class="post-author">
-                      <div class="row">
-                        <div class="column width-12">
-                          <div class="author-bio">
-                            <div class="author-avatar clear-float">
-                              <img src="images/blog/bio-avatar-3.jpg" alt="Avatar">
-                            </div>
-                            <div class="author-content">
-                              <div class="row">
-                                <div class="column width-12">
-                                  <div class="name">by <a href="#">Jenna Burke</a></div>
-                                  <p class="author-title">WordPress Evangelist, JS Guru and Beer Lover</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div> -->
                   </div>
                 </article>
-
-              {% if mod3 == 0 %}
-              <div class="post">
-                <div class="box box-bg bg-white">
-                  <div class="row">
-                    <div class="col-12">
-                      {% include /adunits/inner-adsense-infeed.html %}
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {% endif %}
+                {% endif %}
 
             {% endfor %}
-
-
-
-
-
-
-
-
 
 
 						</div>

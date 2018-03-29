@@ -7,6 +7,7 @@ tags: [microphone, dynamic, condenser]
 affiliate_search_term: "Marketing"
 author: "Ian"
 post_id: "post-4"
+category: "music-hardware"
 ---
 Have you ever wondered what the how certain materials in the room might affect the way a recording sounds?
 

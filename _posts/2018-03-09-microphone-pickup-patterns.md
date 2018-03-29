@@ -7,6 +7,7 @@ tags: [microphone, dynamic, condenser]
 affiliate_search_term: "Marketing"
 author: "Ian"
 post_id: "post-3"
+category: "music-hardware"
 ---
 Have you ever wondered what the differences are between a cardioid pattern microphone and a bidirectional microphone?
 
@@ -43,10 +44,11 @@ A cardioid pattern receives from front and rejects most sides and back. This typ
 
 {% include /adunits/inner-adsense-inarticle-2.html %}
 
-By using different microphone patterns we can achieve a blend of direct signal and ambience. This is incredibly important to know because we can understand when to capture certain sounds and when to use certain patterns for doing so.
-
+By using different microphone patterns we can achieve a blend of direct signal and ambience. This is incredibly important to know because we can understand when to capture certain sounds and when to use certain patterns for doing so. Each can achieve a different effect in [recording](https://www.shure.eu/discover/educational#recording).
 
 ## The Difference between a Microphone Patterns
 When it comes time to decide between which type of microphone pickup pattern to use, whether it is a cardioid, omnidirectional, bidirectional, or a combination of those, it largely depends on the sound source as well as the environment within which the sound is being recorded.
 
 For example, if you are planning on recording a vocalist then a cardioid is almost always recommended.
+
+To learn more about this subject, consider reading about the difference between [dynamic microphones and condenser microphones](https://soundgrail.com/blog/dynamic-vs-condenser-mic/).
