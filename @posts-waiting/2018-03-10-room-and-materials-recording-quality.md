@@ -6,7 +6,7 @@ excerpt: "When recording you will be able to hear not only the room but also the
 tags: [microphone, dynamic, condenser]
 affiliate_search_term: "Marketing"
 author: "Ian"
-post_id: "post-5"
+post_id: "post-4"
 ---
 Have you ever wondered what the how certain materials in the room might affect the way a recording sounds?
 
@@ -40,6 +40,7 @@ Shape of the room will depict how many reflections occur after the source sound 
 Sound waves do not just bounce once, they will reflect multiple times.
 There is a term known as standing waves. Standing waves cancel out frequencies because of overlap. Odd sided rooms are preferred as they can prevent these cancelations.
 
+{% include /helpers/blog-image-center-full.html img="music-studio-with-walls.jpg" title="Music studio showing walls reflecting sound" %}
 
 ## How materials shape the recording of sound
 Understanding how a room's construction materials affect the sound of a room is also incredibly important and just as crucial to the shape itself.

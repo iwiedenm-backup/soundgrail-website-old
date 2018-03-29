@@ -6,7 +6,7 @@ excerpt: " "
 tags: [microphone, dynamic, condenser]
 affiliate_search_term: "Marketing"
 author: "Ian"
-post_id: "post-6"
+post_id: "post-5"
 ---
 Many artists will relate to what I am about to say:
 
@@ -51,6 +51,7 @@ Each channel (which can be a blog, label, etc) has their own page with a link to
 
 Basically, you get two credits every day for free or you can buy "Premium Credits" for one dollar each. Some channels only accept premium credits while others accept all kinds. Premium credits generally increase your chance of exposure and acceptance. You can head over to [Submithub](https://www.submithub.com/) and try it out!
 
+{% include /helpers/blog-image-center-full.html img="submitted-music-equipment.jpg" title="Music equipment for submitting" %}
 
 ## 3. Get Your Music on Spotify Playlists
 Most labels and blogs have submission forms where you can submit your music to be added to their Spotify playlists. These playlists can have thousands and even hundreds of thousands of listeners.
