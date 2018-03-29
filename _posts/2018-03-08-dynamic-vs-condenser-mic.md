@@ -24,6 +24,8 @@ In general, dynamic microphones are a lot more sturdy than condensers but will p
 * High gain before feedback
 * Convert sound to electricity
 
+{% include /helpers/blog-image-center-full.html img="girl-listening-to-music.jpg" title="Girl listening to music" %}
+
 ### Applications
 * Aggressive applications
 * Toms, snare, kick drum
@@ -34,6 +36,8 @@ In general, dynamic microphones are a lot more sturdy than condensers but will p
 ### Examples of popular Dynamic Microphones
 * Shure SM57 (used frequently for recording drums)
 * Sennheiser MD421 (It sounds good on virtually any instrument including vocals, guitar and percussion)
+
+{% include /adunits/inner-adsense-inarticle-1.html %}
 
 ## Powered Condenser Microphone
 Condenser microphones tend to have a larger body than dynamic mic. They have large side mounted diaphragm and are far more detailed. In general they are better for studio recordings where quality is of the essence but will often lead to feedback issues which is why they are shunned for most live settings.
@@ -46,6 +50,7 @@ Condenser microphones tend to have a larger body than dynamic mic. They have lar
 * Less aggressive applications
 * Recording vocals in the studio
 
+{% include /adunits/inner-adsense-inarticle-2.html %}
 
 ### Examples of popular Condenser Microphones
 * AKG c214

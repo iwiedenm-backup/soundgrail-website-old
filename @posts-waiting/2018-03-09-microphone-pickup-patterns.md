@@ -23,10 +23,14 @@ This pickup pattern will allows the diaphragm to pick up sound from all directio
 * Omnidirectional is optimized for orchestral recordings
 * Omnidirectional is good for getting the entire image of surrounding recordings
 
+{% include /adunits/inner-adsense-inarticle-1.html %}
+
 ## Bidirectional Microphone Pattern
 A bidirectional pattern will record sound from front and back but not the sides
 * This is usually an option but it is rarely the only option
 * THis type is useful for interviews and some vocal scenarios
+
+{% include /helpers/blog-image-center-full.html img="tape-with-music-for-microphone.jpg" title="Tape with music for microphone" %}
 
 ## Cardioid Microphone Pattern
 A cardioid pattern receives from front and rejects most sides and back. This type of pattern is the most commonly used for recording vocals.
@@ -36,6 +40,8 @@ A cardioid pattern receives from front and rejects most sides and back. This typ
 
 ## Supercardioid (Hypcardioid) Microphone Pattern
 * This pattern rejects 50% less than the standard cardioid pattern.
+
+{% include /adunits/inner-adsense-inarticle-2.html %}
 
 By using different microphone patterns we can achieve a blend of direct signal and ambience. This is incredibly important to know because we can understand when to capture certain sounds and when to use certain patterns for doing so.
 

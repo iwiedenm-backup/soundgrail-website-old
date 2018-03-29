@@ -29,6 +29,8 @@ The use of diffusers in a recording room can change the way the sound is capture
 
 First we are going to talk about size.
 
+{% include /adunits/inner-adsense-inarticle-1.html %}
+
 ## How Room Size can Affect Recording Quality
 If the room is large and the mic is in the center we will get a large and more reverberated sound.
 If the room is smaller we will get a tighter, less ambient sound. We can also achieve a similar result by placing the vocalist in a large room but closer to a wall or a corner
@@ -47,6 +49,8 @@ There are 3 important qualities that materials in the room possess. Namely they 
 * Reflection = Hard materials like glass and cement cause reflection. Here, most of the sound is reflected in such a way that the reflected sound is nearly as powerful as the source before it hit the reflecting material
 * Absorption = Soft materials like foam and carpeting can cause absorption. Absorption is similar to reflection. The key difference is, however, that most of the power of the source is 'absorbed' into the material and little of the original power of the signal is reflected out again.
 * Diffusion = Materials that possess the ability to diffuse will scatter the sounds into very tiny and almost random reflections. This does not deaden the sound that much.
+
+{% include /adunits/inner-adsense-inarticle-2.html %}
 
 ## Creating a Good Recording Environment
 When it comes time to decide between which type of materials to use or how many walls to put in your studio, it can seem a bit overwhelming.
