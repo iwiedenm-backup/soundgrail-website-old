@@ -77,7 +77,6 @@ compress_html:
 
 # Gems
 gems:
-  - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
