@@ -38,7 +38,7 @@ We may collect non-personally identifiable information about you in the course o
 By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy.
 
 ## How We Use Your Information:
-Your name and your email are used solely for the purpose of logging into your personal account and making you a registered member of the site and app. We do not share, sell, or distribute your name and email without your authorization first.
+Your name and your email are used solely for the purpose of logging into your personal account and making you a registered member of the site and app. We may also send promotional and marketing emails to you, which you can opt out of any time. We do not share, sell, or distribute your name and email without your authorization first.
 
 Google Analytics may track additional information such as IPs which we we use for marketing.
 
